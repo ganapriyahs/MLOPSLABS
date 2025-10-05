@@ -1,0 +1,29 @@
+Baseline Logistic Regression Accuracy: 0.7721
+Confusion Matrix:
+[[438  62]
+ [113 155]]
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.79      0.88      0.83       500
+           1       0.71      0.58      0.64       268
+
+    accuracy                           0.77       768
+   macro avg       0.75      0.73      0.74       768
+weighted avg       0.77      0.77      0.77       768
+
+
+Fine-tuned Random Forest Accuracy: 0.9023
+Confusion Matrix:
+[[473  27]
+ [ 48 220]]
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.91      0.95      0.93       500
+           1       0.89      0.82      0.85       268
+
+    accuracy                           0.90       768
+   macro avg       0.90      0.88      0.89       768
+weighted avg       0.90      0.90      0.90       768
+
