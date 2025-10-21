@@ -1,0 +1,18 @@
+Test output log:
+
+Model trained with logreg.
+Input test data (after feature engineering):
+  Pregnancies: 2.0
+  Glucose: 120.0
+  BloodPressure: 70.0
+  SkinThickness: 20.0
+  Insulin: 85.0
+  BMI: 28.0
+  DiabetesPedigreeFunction: 0.5
+  Age: 30.0
+  AgeGroup: 1.0
+  BMICategory: 3.0
+  Glucose_Insulin_Ratio: 1.411764705882353
+  HighPregnancyCount: 0.0
+Prediction: Non-Diabetic
+
