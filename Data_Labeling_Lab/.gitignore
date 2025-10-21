@@ -13,3 +13,4 @@ model/*.pkl
 .DS_Store
 
 data/sentiment_analysis.csv
+
