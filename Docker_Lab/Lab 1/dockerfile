@@ -1,0 +1,18 @@
+# Stage 1: Build and Train the Model
+FROM python:3.9 AS model_training
+WORKDIR /app
+COPY src/model_training.py /app/
+COPY requirements.txt /app/
+RUN pip install -r requirements.txt
+RUN python model_training.py
+
+# Stage 2: Serve Predictions
+FROM python:3.9 AS serving
+WORKDIR /app
+COPY --from=model_training /app/my_model.keras /app/
+COPY src/main.py /app/
+EXPOSE 80
+COPY requirements.txt /app/
+RUN pip install --trusted-host pypi.python.org -r requirements.txt
+COPY src/templates /app/templates
+CMD ["python", "main.py"]

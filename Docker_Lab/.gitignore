@@ -1,0 +1,24 @@
+# Ignore Python cache and build files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ignore model artifacts (if saved within src)
+*.keras
+*.h5
+*.pkl
+*.joblib
+
+# Ignore test cache
+.pytest_cache/
+
+# Ignore editor swap/temp files
+*.swp
+*.swo
+
+# Ignore logs
+*.log
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
