@@ -1,5 +1,5 @@
 Wine Classifier Lab
-This project trains and serves a wine classification model using Docker, TensorFlow, and Flask. You can use a web page or API to get predictions based on wine features.
+This lab trains and serves a wine classification model using Docker, TensorFlow, and Flask. You can use a web page or API to get predictions based on wine features.
 
 How to Use
 1. Build the Docker image:
