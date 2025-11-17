@@ -24,3 +24,4 @@ Notes
 Enter all 13 wine features for predictions.
 Everything runs inside Docker—no extra setup needed.
 
+check assets folder for outputs
